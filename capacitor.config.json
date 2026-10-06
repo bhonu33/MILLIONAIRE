@@ -1,0 +1,8 @@
+{
+  "appId": "com.millionaire.tracker",
+  "appName": "Millionaire",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#0b0d16"
+  }
+}

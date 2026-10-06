@@ -1,0 +1,21 @@
+{
+  "name": "millionaire",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sync": "cap sync android",
+    "icons": "capacitor-assets generate --android",
+    "fonts": "node scripts/bundle-fonts.mjs"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/local-notifications": "^8.0.0",
+    "@capacitor/filesystem": "^8.0.0",
+    "@capacitor/share": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/assets": "^3.0.5"
+  }
+}
